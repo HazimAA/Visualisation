@@ -35,7 +35,7 @@ FROM logins
 ORDER BY user_id, login_week
 ;
 ```
-
+![alt text](https://github.com/HazimAA/Visualisation/tree/HazimAA-Viz-SQL-1/SQL/Bucketing.JPG)  
 --------------------------
 Step 3: Normalizing Visits
 --------------------------
@@ -67,6 +67,7 @@ SELECT
 FROM with_first_week
 ;
 ```
+![alt text](https://github.com/HazimAA/Visualisation/tree/HazimAA-Viz-SQL-1/SQL/Normalising Visits.JPG)
 
 -------------------
 Step 4: Tallying Up
@@ -118,3 +119,5 @@ GROUP BY first_week
 ORDER BY first_week
 ;
 ```
+
+![alt text](https://github.com/HazimAA/Visualisation/tree/HazimAA-Viz-SQL-1/SQL/Tallying.JPG)
